@@ -1,0 +1,27 @@
+body{
+        background-color:#f6f8ff;
+}
+ /* register-html */
+.text{
+        line-height: 1.2;
+}
+ /* register-html */
+.header-img{
+        margin-left:43px;
+}
+.image{
+        margin-left: 20px;
+        width: 88%;
+}
+.done-img{
+        margin-left: 20px;
+        width: 88%;
+}
+/* .error{
+        background-color: red;
+        color: #f6f8ff;
+        padding: 8px;
+        text-align: center;
+        transition: all 1s linear;
+} */
+

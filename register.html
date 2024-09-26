@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sign up</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <!-- start content secrtion -->
+<div class="container">
+        <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" alt="##" class=" mt-5 image">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+                        <h2 class="mt-5">Create Account</h2>
+                        <h5 class="text-muted my-3 text">Go ahead and sign up, let everyone<br> know how awesome you are!</h5>
+                        <h3 id="result"></h3>
+                <form action="success.html" method="post" onsubmit="return validate()">
+                        <input type="text" id="text" placeholder="Username" autocomplete="username" class="form-control mt-3  p-4" >
+                        <input type="email" id="email" placeholder="E-mail" autocomplete="email" class="form-control mt-3 p-4">
+                        <input type="password" id="password" placeholder="password" class="form-control  mt-3  p-4" >
+                        <input type="password"id="confirmpass" placeholder="Confirm password"  class="form-control mt-3 p-4" >
+                        <input type="submit" value="Creat New Account" class="btn btn-primary btn-block my-4 ">
+                        
+
+                        
+                </form>
+                </div>
+        </div>
+</div>
+<!-- end content secrtion -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
